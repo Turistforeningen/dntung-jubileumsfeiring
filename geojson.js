@@ -18,6 +18,61 @@ var activities = [{
     ,"what": "Vidden by night"
     ,"where": "Vidden i Bergen"
     ,"who": "DNT ung Bergen"
+    ,"url": "http://www.dntung.no/bergen/activity.php?ac_id=45028"
+  }
+},{
+  "type": "Point"
+  ,"coordinates": [6.099643707275391, 62.459463239996076]
+  ,"properties": {
+    "id": 49564
+    ,"title": "13:00 - ÅLESUND"
+    ,"what": "Lunsjfjelltur til Sukkertoppen i Ålesund"
+    ,"where": "Sukkertoppen"
+    ,"who": "DNT ung Sunnmøre"
+    ,"url": "http://www2.turistforeningen.no/activity.php?ac_id=49564&fo_id=2513"
+  }
+},{
+  "type": "Point"
+  ,"coordinates": [6, 59]
+  ,"properties": {
+    "id": 49767
+    ,"title": "14:00 - STAVANGER"
+    ,"what": "Kajakk, klatring, orientering og mye annet gøy!"
+    ,"where": "Vågen/Breiavannet"
+    ,"who": "DNT ung Stavanger"
+    ,"url": "http://www2.turistforeningen.no/activity.php?ac_id=49767&fo_id=2513"
+  }
+},{
+  "type": "Point"
+  ,"coordinates": [5.3633880615234375, 60.409275277271945]
+  ,"properties": {
+    "id": 45028
+    ,"title": "foo"
+    ,"what": "bar"
+    ,"where": "baz"
+    ,"who": "fox"
+    ,"url": "http://www.dntung.no/oslo/activity.php?ac_id=49709"
+  }
+},{
+  "type": "Point"
+  ,"coordinates": [5.3633880615234375, 60.409275277271945]
+  ,"properties": {
+    "id": 45028
+    ,"title": "foo"
+    ,"what": "bar"
+    ,"where": "baz"
+    ,"who": "fox"
+    ,"url": "http://www.dntung.no/oslo/activity.php?ac_id=49709"
+  }
+},{
+  "type": "Point"
+  ,"coordinates": [5.3633880615234375, 60.409275277271945]
+  ,"properties": {
+    "id": 45028
+    ,"title": "foo"
+    ,"what": "bar"
+    ,"where": "baz"
+    ,"who": "fox"
     ,"url": "http://www.dntung.no/oslo/activity.php?ac_id=49709"
   }
 }]
