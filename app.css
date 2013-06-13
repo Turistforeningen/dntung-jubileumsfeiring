@@ -10,6 +10,10 @@
   background-color: #d82d20 !important;
 }
 
+.leaflet-popup-content {
+  color: #ffffff;
+}
+
 .leaflet-popup-content p {
   margin: 3px 0;
 }
