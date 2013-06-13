@@ -1,11 +1,9 @@
-Area Drawing Tool
-=================
+25 ÅR FEIRES MED 25 TIMERS MORO
+===============================
 
-Simple area drawing tool for internal use in Turistforeningen.
+21. - 22. juni utvider DNT ung døgnet til 25 timer for å feire sin egen 25-årsdag. Hver eneste av disse 25 timene vil en ny DNT ung-aktivitet starte rundt omkring i landet. 
 
-## Features
-* Draw new areas
-* Edit geometry of exisiting areas (only green areas)
-* Click to edit name of existing areas (only green areas)
+## Funksjonalitet
+* Interaktivt kart
 
-![Area Drawing Screenshot](https://raw.github.com/Turistforeningen/area-drawing/gh-pages/img/area-drawing.png)
+![DNT ung døgnet](https://raw.github.com/Turistforeningen/dntung-jubileumsfeiring/gh-pages/img/promo.png)
