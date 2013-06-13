@@ -14,9 +14,9 @@ var activities = [{
   ,"coordinates": [5.3633880615234375, 60.409275277271945]
   ,"properties": {
     "id": 45028
-    ,"title": "Vidden by night"
-    ,"what": "Beskrivelse på aktivitet"
-    ,"where": "Vidden"
+    ,"title": "22:00 - BERGEN"
+    ,"what": "Vidden by night"
+    ,"where": "Vidden i Bergen"
     ,"who": "DNT ung Bergen"
     ,"url": "http://www.dntung.no/oslo/activity.php?ac_id=49709"
   }
