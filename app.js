@@ -44,5 +44,13 @@ var markers;
       markers.addData(activities[i]);
     }
     
+    var LogoController = L.Control.extend({
+      options: { position: 'bottomleft' }
+      ,onAdd: function (map) {
+        return L.DomUtil.create('div', 'dnt-ung-logo');
+      }
+    });
+    map.addControl(new LogoController());
+    
   });    
 }).call(this);
