@@ -25,11 +25,11 @@ var markers;
         
         var content = [
         '<h2>' + layer.feature.properties.title + '</h2>'
-        ,'<p><strong>Hva: </strong> '+ layer.feature.properties.what +'</p>'
-        ,'<p><strong>Hvor: </strong> '+ layer.feature.properties.where +'</p>'
-        ,'<p><strong>Hvem: </strong> '+ layer.feature.properties.who +'</p>'
+        ,'<p><strong>Hva: </strong> ' + layer.feature.properties.what + '</p>'
+        ,'<p><strong>Hvor: </strong> ' + layer.feature.properties.where + '</p>'
+        ,'<p><strong>Hvem: </strong> ' + layer.feature.properties.who + '</p>'
         ,'<p style="text-align:center">'
-        ,'<a href="#" class="dnt-url">Les mer</a> '
+        ,'<a target="_blank" href="' + layer.feature.properties.url + '" class="dnt-url">Les mer</a> '
         ,'</p>'
         ].join('');
         
