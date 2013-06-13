@@ -42,6 +42,7 @@ var activities = [{
     ,"who": "DNT ung Stavanger"
     ,"url": "http://www2.turistforeningen.no/activity.php?ac_id=49767&fo_id=2513"
   }
+/*
 },{
   "type": "Point"
   ,"coordinates": [5.3633880615234375, 60.409275277271945]
@@ -75,4 +76,5 @@ var activities = [{
     ,"who": "fox"
     ,"url": "http://www.dntung.no/oslo/activity.php?ac_id=49709"
   }
+*/
 }]
