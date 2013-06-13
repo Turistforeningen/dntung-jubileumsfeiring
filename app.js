@@ -10,11 +10,18 @@ var markers;
         
     markers = L.geoJson(null, {
       pointToLayer: function(feature, latlng) {
-        return L.marker(latlng);
+        return L.marker(latlng, {
+          icon: L.icon({
+            iconUrl: 'img/1-3.png'
+            ,iconRetinaUrl: 'img/1-3@2x.png'
+            ,iconSize: [26, 32]
+            ,iconAnchor: [26, 32]
+            ,popupAnchor: [-12, -30]
+          })
+        });
       }
       
       ,onEachFeature: function(feature, layer) {
-        
         
         var content = [
         '<h2>' + layer.feature.properties.title + '</h2>'
