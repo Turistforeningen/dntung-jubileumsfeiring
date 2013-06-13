@@ -12,11 +12,11 @@ var markers;
       pointToLayer: function(feature, latlng) {
         return L.marker(latlng, {
           icon: L.icon({
-            iconUrl: 'img/1-3.png'
-            ,iconRetinaUrl: 'img/1-3@2x.png'
-            ,iconSize: [26, 32]
-            ,iconAnchor: [26, 32]
-            ,popupAnchor: [-12, -30]
+            iconUrl: 'img/logo.png'
+            /* ,iconRetinaUrl: 'img/1-3@2x.png' */
+            ,iconSize: [50, 50]
+            ,iconAnchor: [25, 50]
+            ,popupAnchor: [0, -25]
           })
         });
       }
