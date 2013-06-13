@@ -1,0 +1,19 @@
+#map {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.leaflet-popup-content-wrapper, .leaflet-popup-tip {
+  background-color: #d82d20 !important;
+}
+
+.leaflet-popup-content p {
+  margin: 3px 0;
+}
+
+.leaflet-popup-content a {
+  color: #ffffff;
+}
