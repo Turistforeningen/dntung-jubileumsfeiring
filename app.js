@@ -2,10 +2,10 @@ var markers;
 (function() {
   "use strict";
   jQuery(function($) {
-		var topo = L.tileLayer('http://{s}.tile.cloudmade.com/{key}/997/256/{z}/{x}/{y}.png', {
-			attribution: 'Map data &copy; 2011 OpenStreetMap contributors, Imagery &copy; 2012 CloudMade',
-			key: 'BC9A493B41014CAABB98F0471D759707'
-		});    
+    var topo = L.tileLayer('http://opencache.statkart.no/gatekeeper/gk/gk.open_gmaps?layers=topo2&zoom={z}&x={x}&y={y}', {
+      maxZoom: 16,
+      attribution: '<a href="http://www.statkart.no/">Statens kartverk</a>'
+    });    
     var map = new L.Map('map', {layers: [topo], center: new L.LatLng(61.5, 9), zoom: 6 });
         
     markers = L.geoJson(null, {
