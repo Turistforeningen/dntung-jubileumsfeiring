@@ -1,4 +1,9 @@
 var markers;
+
+changePopup = function(markerOld, markerNew) {
+  alert(markerOld);
+};
+
 (function() {
   "use strict";
   jQuery(function($) {
@@ -9,6 +14,7 @@ var markers;
     var map = new L.Map('map', {layers: [topo], center: new L.LatLng(61.5, 9), zoom: 6 });
         
     markers = L.geoJson(null, {
+      // Create Markers
       pointToLayer: function(feature, latlng) {
         return L.marker(latlng, {
           icon: L.icon({
@@ -21,18 +27,31 @@ var markers;
         });
       }
       
+      // Do the popup
       ,onEachFeature: function(feature, layer) {
         
-        var content = [
-        '<h2>' + layer.feature.properties.title + '</h2>'
-        ,'<p><strong>Hva: </strong> ' + layer.feature.properties.what + '</p>'
-        ,'<p><strong>Hvor: </strong> ' + layer.feature.properties.where + '</p>'
-        ,'<p><strong>Hvem: </strong> ' + layer.feature.properties.who + '</p>'
-        ,'<p style="text-align:center">'
-        ,'<a target="_blank" href="' + layer.feature.properties.url + '" class="dnt-url">Les mer</a> '
-        ,'</p>'
-        ].join('');
+        var content, getContent;
         
+        getContent = function(prop) {
+          return [
+          '<h2>' + prop.title + '</h2>'
+          ,'<p class="what"><strong>Hva: </strong> ' + prop.what + '</p>'
+          ,'<p class="where"><strong>Hvor: </strong> ' + prop.where + '</p>'
+          ,'<p class="who"><strong>Hvem: </strong> ' + prop.who + '</p>'
+          ,'<p style="text-align:center">'
+          ,'<a target="_blank" class="url" href="' + prop.url + '" class="dnt-url">Les mer</a> '
+          ,'</p>'
+          ].join('');
+        };
+        
+        if (typeof layer.feature.properties.title !== 'undefined') {
+          content = getContent(layer.feature.properties);
+        } else {
+          content = '';
+          for (var i = 0; i < layer.feature.properties.length; i++) {
+            content += getContent(layer.feature.properties[i]);
+          }
+        }
         layer.bindPopup(content, {className: 'act-popup'});
         
         return true;

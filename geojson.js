@@ -22,15 +22,22 @@ var activities = [{
   }
 },{
   "type": "Point"
-  ,"coordinates": [6.099643707275391, 62.459463239996076]
-  ,"properties": {
+  ,"coordinates": [6.327095031738281, 62.48675477290771]
+  ,"properties": [{
     "id": 49564
     ,"title": "13:00 - ÅLESUND"
     ,"what": "Lunsjfjelltur til Sukkertoppen i Ålesund"
     ,"where": "Sukkertoppen"
     ,"who": "DNT ung Sunnmøre"
     ,"url": "http://www2.turistforeningen.no/activity.php?ac_id=49564&fo_id=2513"
-  }
+  },{
+    "id": 46775
+    ,"title": "17:00 - SUNNMØRE"
+    ,"what": "Kajakktur"
+    ,"where": "Ellingsøyfjorden"
+    ,"who": "DNT ung Sunnmøre"
+    ,"url": "http://alesund.turistforeningen.no/activity.php?ac_id=46775"
+  }]
 },{
   "type": "Point"
   ,"coordinates": [6, 59]
@@ -63,17 +70,6 @@ var activities = [{
     ,"where": "Øyuvsbu (mellom Sirdal og Setesdal)"
     ,"who": "DNT ung Sør"
     ,"url": "http://www.dntsor.no/activity.php?ac_id=45241"
-  }
-},{
-  "type": "Point"
-  ,"coordinates": [6.327095031738281, 62.48675477290771]
-  ,"properties": {
-    "id": 46775
-    ,"title": "17:00 - SUNNMØRE"
-    ,"what": "Kajakktur"
-    ,"where": "Ellingsøyfjorden"
-    ,"who": "DNT ung Sunnmøre"
-    ,"url": "http://alesund.turistforeningen.no/activity.php?ac_id=46775"
   }
 },{
   "type": "Point"
