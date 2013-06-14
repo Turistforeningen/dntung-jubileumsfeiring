@@ -1,14 +1,21 @@
 var activities = [{
   "type": "Point"
   ,"coordinates": [10.736230909824371, 59.914036394375366]
-  ,"properties": {
+  ,"properties": [{
     "id": 1234
     ,"title": "12:00 - OSLO"
     ,"what": "Pangstart! Vi gir dere muligheten til å teste ut en rekke av våre mest populære aktiviteter midt i Oslo sentrum."
     ,"where": "Oslo Sentrum"
     ,"who": "DNT ung Oslo"
     ,"url": "http://www.dntung.no/oslo/activity.php?ac_id=49709"
-  }
+  },{
+    "id": 49648
+    ,"title": "19:00 - OSLO"
+    ,"what": "Sommeraktiviteter og moro"
+    ,"where": "Hovedøya"
+    ,"who": "DNT ung Oslo"
+    ,"url": "http://www.dntung.no/oslo/activity.php?ac_id=49648"
+  }]
 },{
   "type": "Point"
   ,"coordinates": [5.3633880615234375, 60.409275277271945]
@@ -115,17 +122,6 @@ var activities = [{
     ,"who": "DNT ung Trøndelag"
     ,"url": "http://www.dntung.no/trondelag/activity.php?ac_id=49764"
   }]
-},{
-  "type": "Point"
-  ,"coordinates": [10.718536376953125, 59.87177762221592]
-  ,"properties": {
-    "id": 49648
-    ,"title": "19:00 - OSLO"
-    ,"what": "Sommeraktiviteter og moro"
-    ,"where": "Hovedøya"
-    ,"who": "DNT ung Oslo"
-    ,"url": "http://www.dntung.no/oslo/activity.php?ac_id=49648"
-  }
 },{
   "type": "Point"
   ,"coordinates": [14.224205017089844, 67.1640264478416]
