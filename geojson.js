@@ -231,7 +231,7 @@ var activities = [{
 },{
     "id": 48981
     ,"title": "12:00 - TROMSØ"
-    ,"what": "Kajakkpadling"
+    ,"what": "Buldring"
     ,"where": "Grøtfjord"
     ,"who": "DNT ung Troms"
     ,"url": "http://troms.turistforeningen.no/activity.php?ac_id=48981"
